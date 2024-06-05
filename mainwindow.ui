@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1000</width>
+    <height>537</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>500</width>
+    <height>500</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">#MainWindow{border-image: url(:/back/image/压缩.jpg);}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="PB_compress">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>160</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+font: 22pt &quot;楷体&quot;;
+background-color: rgb(255, 255, 255);
+ /*边框圆角半径为8像素*/ 
+    border-radius:8px;
+	border-style: outset;
+	border-width: 5px;
+border: 5px solid rgb(0, 170, 255);
+}
+QPushButton:pressed
+{
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>文件压缩</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="PB_decom">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>340</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton
+{
+font: 22pt &quot;楷体&quot;;
+background-color: rgb(255, 255, 255);
+ /*边框圆角半径为8像素*/ 
+    border-radius:8px;
+	border-style: outset;
+	border-width: 5px;
+border: 5px solid rgb(0, 170, 255);
+}
+QPushButton:pressed
+{
+    /*左内边距为3像素，让按下时字向右移动3像素*/  
+    padding-left:3px;
+    /*上内边距为3像素，让按下时字向下移动3像素*/  
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>文件解压</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1000</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
